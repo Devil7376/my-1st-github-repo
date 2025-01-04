@@ -1,0 +1,51 @@
+body{
+    background-image: url(image01.jpg);
+}
+h1{
+    cursor: pointer;
+    color: red;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+header{
+    background-color: rgb(231, 123, 200);
+    display: flex;
+}
+form{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+}
+
+input[type="text"]{
+    padding: 8px;
+    border: 1px solid gold;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+button{
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056B3;
+}
+
+li:hover{
+    background-color: rgb(160, 240, 79);
+}
